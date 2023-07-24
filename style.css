@@ -1,0 +1,23 @@
+/* Estilos Generales  */
+:root {
+
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    height: 75vh;
+    width: 95vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+main article {
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+}
