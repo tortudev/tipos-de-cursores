@@ -11,13 +11,33 @@ main {
     height: 75vh;
     width: 95vw;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
 main article {
-    width: 150px;
-    height: 150px;
+    width: 8em;
+    height: 8em;
     background-color: aqua;
+}
+
+article {
+    display: flex;
+    border-radius: 20px;
+    margin: 2.1em;
+    text-align: center;
+    align-items: center;
+    justify-content: center;        
+}
+
+footer {
+    background-color: bisque;
+    color: black;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    display: block;
+    position: fixed;
+    width: 100vw;
+    height: 80vh;
 }
