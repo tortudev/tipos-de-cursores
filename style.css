@@ -6,6 +6,7 @@
     --color01: #a0d8b3;
     --color02: #A2A378;
     --color03: #83764F;
+    --color04: #908e8e;;
 	--sm: 0.875rem;
 	--md: 1rem;
 	--lg: 1.12rem;
@@ -14,15 +15,50 @@
 body {
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
     background-color:var(--backgroundPage) ;
 }
 header {
-    background-color: #6c342867;
+    display: flex;
+    position: relative;
+    right: 0.6rem;
 }
 
-header nav img {
+header a img {
+    margin: 0.5rem 0.2rem 0.2rem 1rem ;
     height: 4rem;
     width: 4rem;
+    position:fixed;
+}
+
+.navbar-right {
+    display: flex;
+    width: 99vw;
+    height: 4.2rem;
+}
+
+.navbar-right ul {
+	display: flex;
+    list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 100vw;
+	align-items: center;
+    flex-direction: row-reverse;
+
+}
+
+.navbar-right ul li a {
+    color: var(--black);
+    text-decoration: none;
+    padding: 8px;
+	border-radius: 8px;
+    border: 2px var(--color04);
+}
+
+.navbar-right ul li a:hover {
+	border: 1px solid var(--color01);
+	color: var(--color03);
 }
 body h1 {
     align-content: center;
