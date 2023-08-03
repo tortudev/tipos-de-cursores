@@ -6,13 +6,15 @@
     --color01: #a0d8b3;
     --color02: #A2A378;
     --color03: #83764F;
-    --color04: #908e8e;;
+    --color04: #908e8e;
+    --color05: #862b0d39;
 	--sm: 0.875rem;
 	--md: 1rem;
-	--lg: 1.12rem;
+	--lg: 2.6rem;
 }
 
 body {
+    font-family: 'Handjet', cursive;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -25,7 +27,7 @@ header {
 }
 
 .logo img {
-    margin: 0.8rem 0.2rem 0.2rem 1.8rem ;
+    margin: 0.8rem 0.2rem 0.2rem 2.4rem ;
     height: 3rem;
     width: 3.6rem;
     position:fixed;
@@ -52,6 +54,7 @@ header {
     height: 3.6rem;
     width: 6.2rem;
     margin-bottom: -1.6rem;
+    transform: rotate(4deg);
 }
 
 .navbar-right ul li a {
@@ -59,7 +62,7 @@ header {
     text-decoration: none;
     padding: 8px;
 	border-radius: 8px;
-    border: 2px var(--color04);
+    
 }
 
 .navbar-right ul li a:hover {
@@ -67,39 +70,44 @@ header {
 	color: var(--color03);
 }
 .title {
-    color: aqua;
-    background-color: blue;
+    font-size: var(--lg);
+    color: var(--color04);
     display: flex;
     position: absolute;
-    margin: -1rem 0 0 -2.6rem;
+    margin: -6rem 0 0 0.4rem;
     width: 96vw;
     justify-content: center;
 
 }
-body img {
-    
+.click {
+    margin: 0.5rem;
     height: 1.25rem;
     width: 1.25rem;
+    
 }
 
 main {
-    margin: 2rem 0 0 0;
-    height: 75vh;
-    width: 95vw;
+    margin: 2rem 0px 0rem 0;
+    padding: 0px 0px 0rem;
+    height: 80vh;
+    width: 100vw;
     display: flex;
+    position: static;
     justify-content: center;
     flex-wrap: wrap;
+    align-content: center;
 }
 
 main article {
+    margin: 1rem 1rem 1rem 1rem;
     width: 8rem;
     height: 8rem;
-    background-color: var(--color03);
+    background-color: var(--color05);
 }
 
 article {
     display: flex;
-    border-radius: 20px;
+    border-radius: 4px;
     margin: 2.1rem;
     text-align: center;
     align-items: center;
