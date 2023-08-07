@@ -23,7 +23,9 @@ body {
 header {
     display: flex;
     position: relative;
-    right: 1rem;
+    width: 100vw;
+    height: 5rem;
+    
 }
 
 .logo img {
@@ -74,7 +76,6 @@ header {
     color: var(--color04);
     display: flex;
     position: absolute;
-    margin: -6rem 0 0 0.4rem;
     width: 96vw;
     justify-content: center;
 
@@ -87,12 +88,12 @@ header {
 }
 
 main {
-    margin: 2rem 0px 0rem 0;
+    margin: 4rem 0px 0rem 0;
     padding: 0px 0px 0rem;
     height: 80vh;
     width: 100vw;
     display: flex;
-    position: static;
+    position: relative;
     justify-content: center;
     flex-wrap: wrap;
     align-content: center;
