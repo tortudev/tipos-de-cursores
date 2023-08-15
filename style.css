@@ -88,9 +88,9 @@ header {
 }
 
 main {
-    margin: 4rem 0px 0rem 0;
+    margin: 1rem 0px 0rem 0;
     padding: 0px 0px 0rem;
-    height: 80vh;
+    height: 70vh;
     width: 100vw;
     display: flex;
     position: relative;
@@ -100,7 +100,7 @@ main {
 }
 
 main article {
-    margin: 1rem 1rem 1rem 1rem;
+    margin: 1.5rem 1rem 1.5rem 1rem;
     width: 8rem;
     height: 8rem;
     background-color: var(--color05);
@@ -108,8 +108,7 @@ main article {
 
 article {
     display: flex;
-    border-radius: 4px;
-    margin: 2.1rem;
+    border-radius: 2rem;
     text-align: center;
     align-items: center;
     justify-content: center;        
