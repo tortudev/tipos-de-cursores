@@ -22,9 +22,9 @@ body {
 }
 header {
     display: flex;
-    position: relative;
     width: 100vw;
-    height: 5rem;
+    height: 100px;
+    background-color: var(--color01);
     
 }
 
@@ -32,7 +32,7 @@ header {
     margin: 0.8rem 0.2rem 0.2rem 2.4rem ;
     height: 3rem;
     width: 3.6rem;
-    position:fixed;
+    position:absolute;
 }
 
 .navbar-right {
@@ -73,11 +73,12 @@ header {
 }
 .title {
     font-size: var(--lg);
-    color: var(--color04);
+    color: var(--black);
     display: flex;
     position: absolute;
-    width: 96vw;
     justify-content: center;
+    width: 100vw;
+    margin-top: 3.4rem;
 
 }
 .click {
@@ -88,9 +89,7 @@ header {
 }
 
 main {
-    margin: 1rem 0px 0rem 0;
-    padding: 0px 0px 0rem;
-    height: 70vh;
+    margin: 0.5rem;
     width: 100vw;
     display: flex;
     position: relative;
@@ -118,7 +117,7 @@ footer {
     background-color: var(--color01);
     color: black;
     display: flex;
-    position: fixed;
+    position: relative;
     width: 100vw;
     height: 8vh;
     bottom: 0px;
